@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Keep space-between to align items properly */
+    border-right: 2px solid #e5e5e5;
+    height: 60px; /* Fixed height for the header */
+    padding: 0 20px; /* Add padding to the header */
+}
+
+.search {
+    width: 85%; /* Set explicit width for the search bar */
+    display: flex;
+    align-items: center;
+    background: #e8f3f8;
+    border-radius: 12px;
+    margin-right: 20px; /* Space for the icon on the right */
+}
+
+.header .search input {
+    border: none;
+    padding: 10px; /* Adjust padding for better appearance */
+    width: 100%; /* Allow the input to take full width of the search bar */
+    background: transparent;
+}
+
+.header .search button {
+    border: none;
+    padding: 10px;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header > ion-icon {
+    background: #15333a;
+    color: #fff;
+    padding: 10px; /* Adjust padding for better appearance */
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px; /* Ensure consistent height */
+    width: 40px; /* Ensure consistent width */
+    display: flex; /* Center the icon */
+    align-items: center; /* Center the icon vertically */
+    justify-content: center; /* Center the icon horizontally */
+}

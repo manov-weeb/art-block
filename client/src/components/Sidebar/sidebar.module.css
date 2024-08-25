@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #ffe600dc;
+  --background-color: #ffff;
+  --text-color: #ffffff;
+  --hover-color: #f3f3f3;
+}
+
+[data-theme="dark"] {
+  --primary-color: #ffe600dc;
+  --background-color: #000;
+  --text-color: #fff;
+  --hover-color: #444;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 5rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.sidebarItems {
+  flex: 1;
+}
+
+.sidebar .item,
+.upload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .item:hover,
+.upload:hover {
+  background-color: var(--hover-color);
+}
+
+.sidebar .item ion-icon,
+.upload ion-icon {
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+
+.sidebar .item h3,
+.upload h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.uploadContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+ 
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.active ion-icon {
+background: #fed24d;
+color: #fff;
+}
+
+.active h3 {
+color: #ffb700;
+}
+
+
+.dark {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

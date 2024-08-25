@@ -1,0 +1,63 @@
+.item {
+     position: relative;
+     width: 31%;
+   }
+   
+   .like {
+     position: absolute;
+     right: 20px;
+     top: 20px;
+     background: rgba(255, 255, 255, 0.6);
+     padding: 8px 8px 5px;
+     font-size: 24px;
+     border-radius: 50%;
+     z-index: 10;
+     cursor: pointer;
+     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+     transition: all 0.3s ease;
+   }
+   
+   .like:hover {
+     color: #f86161;
+   }
+   
+   .image {
+     width: 100%;
+     aspect-ratio: 3/4;
+     border-radius: 30px;
+     cursor: pointer;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+     transition: box-shadow 0.3s ease;
+   }
+   
+   .image:hover {
+     box-shadow: none;
+   }
+   
+   .details {
+     margin-top: 10px;
+   }
+   
+   .info {
+     display: flex;
+     margin-top: 8px;
+     gap: 20px;
+   }
+   
+   .location,
+   .rate {
+     display: flex;
+     align-items: center;
+     gap: 2px;
+   }
+   
+   .location i,
+   .rate i {
+     font-size: 18px;
+     color: #555;
+   }
+   
+   .rate i {
+     color: #f3d076;
+   }
+   

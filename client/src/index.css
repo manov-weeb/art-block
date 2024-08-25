@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+     margin: 0;
+     padding: 0;
+     outline: none;
+     box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: #000;
+ }
+ 
+ img,
+ video{
+     object-fit: cover;
+ }
+ 
+ body{
+     display: flex;
+     padding: 20px;
+    
+     height: 100vh;
+     overflow-x: hidden;
+     
+ }
+
+ html{
+     font-size: 62.5%;
+ }
+
+ body.dark-mode {
+    background-color: #061700; /* Dark background */
+    color: #ffffff; /* Light text */
+}

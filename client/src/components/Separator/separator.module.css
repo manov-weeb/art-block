@@ -1,0 +1,34 @@
+.separator {
+     padding: 26px 20px;
+ }
+ 
+ .categories {
+     margin-top: 14px;
+     display: flex;
+     gap: 10px;
+     flex-wrap: wrap; /* Allows items to wrap to a new line if necessary */
+ }
+ 
+ .categories a {
+     padding: 8px 12px;
+     background: #e8f3f8;
+     border-radius: 12px;
+     font-size: 14px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     text-decoration: none; /* Remove underline from links */
+     color: #15333a; /* Default text color */
+ }
+ 
+ .categories a.active,
+ .categories a:hover {
+     background: #15333a;
+     color: #fff;
+ }
+ 
+ .separator h3 {
+     font-size: 24px;
+     color: #464646;
+     margin-bottom: 12px;
+ }
+ 

@@ -1,0 +1,17 @@
+/* src/components/darkModeToggle.module.css */
+
+.toggleContainer {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+ }
+ 
+ .toggle {
+     display: none;
+ }
+ 
+ .toggleLabel {
+     margin-left: 8px;
+     font-size: 14px;
+ }
+ 
